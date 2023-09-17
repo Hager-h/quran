@@ -46,7 +46,7 @@ a{
 
 
 ::-webkit-scrollbar {
-  width: 15px; 
+  width: 8px; 
   background-color: var(--primary-color)
 }
 
