@@ -1,0 +1,72 @@
+.about .nass{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.about .nass .name {
+    left: 21px;
+    bottom: 1px;
+    font-size: 12px;
+}
+
+@media(max-width:540px){
+
+
+    .nass {
+        color: beige;
+        line-height: 2.6;
+        font-size: 16px;
+        text-align: end;
+        unicode-bidi: plaintext;
+    }
+    .about .nass .name {
+       
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    
+    }
+
+
+
+
+@media(max-width:470px){
+
+.nass {
+    font-size: 15px;
+    text-align: center;
+}
+.about .nass .name {
+    left: 21px;
+    bottom: 10px;
+    font-size: 14px;
+}
+}
+
+@media(max-width:280px){
+    .Err, .spin-tex {
+       
+        background: transparent;
+     
+     
+         background-color:transparent;
+         background: transparent;
+       
+    }
+
+  
+    .about .nass .name {
+     
+        font-size: 7px;
+    }
+    .about .nass {
+        font-size: 10px;
+
+        padding: 30px;
+    }
+
+}

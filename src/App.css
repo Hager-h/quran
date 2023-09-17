@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.special{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: #040b27;
+
+}
+li{
+  list-style: none;
+}

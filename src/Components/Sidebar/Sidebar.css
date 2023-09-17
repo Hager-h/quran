@@ -1,0 +1,70 @@
+.sidebar {
+  width: 134px;
+
+  background-color: #11304b;
+  height: 100vh;
+  height: 100vh;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px 0px;
+}
+.sign-out,
+.circle {
+  padding: 29px 0px;
+}
+.sidebar .link {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--second);
+}
+.sidebar .link svg {
+  margin-right: 10px;
+}
+.sidebar .link:hover {
+  color: #87a5be;
+}
+
+.sign-out {
+  color: var(--second);
+}
+.circle {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.circle img {
+  width: 90%;
+  border: 5px solid #f1aaa9;
+
+  border-radius: 50%;
+  transition: all 1s ease-in-out;
+  transform: rotate(93deg);
+  transform-origin: 50% 50%;
+  animation: rotation 28s infinite linear;
+
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,153 @@
+.spe-claa h1 {
+  display: block;
+  width: 100%;
+  color: var(--second);
+  font-family: "Lemonada", cursive;
+  margin: 30px 0px;
+}
+
+.video-text h3 {
+  font-size: 33px;
+  color: var(--second);
+  margin-top: 90px;
+  text-align: right;
+  padding: 20px 49px;
+}
+
+.spe-claa {
+  border-radius: 15px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  justify-content: space-around;
+  position: absolute;
+  gap: 21px 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: rgb(6 19 41 / 89%);
+}
+
+.video-text,
+.video-overview {
+  width: 80%;
+  margin: 0 auto;
+}
+.video-text .small {
+  margin-top: 15px;
+  font-size: 21px;
+  color: #09252f;
+  text-align: right;
+  padding: 20px;
+  background: whitesmoke;
+  width: fit-content;
+  border-radius: 14px;
+  text-align: right;
+  margin: 0 revert;
+  margin: 0 aut;
+  margin: 52px auto;
+}
+
+iframe {
+  border: 14px solid #f5c3c3bd;
+  border-radius: 20px;
+}
+
+.video-text h4 {
+  font-size: 21px;
+  color: beige;
+  margin-top: 40px;
+}
+
+.soura {
+  font-size: 22px;
+  color: var(--second);
+  text-align: right;
+  margin: 0;
+}
+
+.nass-span {
+  display: flex;
+  justify-content: flex-start;
+  text-align: right;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.nass {
+  color: beige;
+  line-height: 2.6;
+  font-size: 23px;
+  text-align: justify;
+  unicode-bidi: plaintext;
+
+}
+.soura-span {
+  font-size: 20px;
+  color: var(--third);
+  text-align: left;
+}
+
+.vid-tex {
+  margin-top: 25px;
+}
+
+@media (max-width: 470px) {
+  .video-text h3 {
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  iframe {
+    height: 248px;
+  }
+
+  .video-text .small {
+    font-size: 20px;
+  }
+
+  .nass {
+    line-height: 1.8;
+    font-size: 20px;
+  }
+  .soura-span {
+    text-align: justify;
+    unicode-bidi: plaintext;
+    font-size: 19px;
+  }
+  .soura {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 280px) {
+  .spe-claa h1 {
+    font-size: 22px;
+  }
+
+  iframe {
+    height: 179px;
+    border: 9px solid #f1aaa9;
+  }
+
+  .video-text h3 {
+    font-size: 15px;
+  }
+
+  .video-text .small {
+    font-size: 13px;
+    text-align: center;
+  }
+  .video-text h4 {
+    font-size: 14px;
+  }
+  .nass {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  .soura-span {
+    font-size: 14px;
+  }
+}
