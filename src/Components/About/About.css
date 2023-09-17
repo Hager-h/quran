@@ -10,7 +10,12 @@
     font-size: 12px;
 }
 
-@media(max-width:540px){
+
+
+
+
+
+@media(max-width:719px){
 
 
     .nass {
@@ -34,7 +39,7 @@
 
 
 
-@media(max-width:470px){
+@media(max-width:500px){
 
 .nass {
     font-size: 15px;
@@ -47,7 +52,7 @@
 }
 }
 
-@media(max-width:280px){
+@media(max-width:340px){
     .Err, .spin-tex {
        
         background: transparent;

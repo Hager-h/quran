@@ -46,13 +46,12 @@ a{
 
 
 ::-webkit-scrollbar {
-  width: 8px; 
+  width: 7px; 
   background-color: var(--primary-color)
 }
 
 ::-webkit-scrollbar-thumb {
   background-color:var(--second);
-  border-radius: 4px; 
 }
 
 ::-webkit-scrollbar-thumb:hover,
