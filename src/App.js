@@ -12,7 +12,7 @@ import Azkar from "./Components/Azkar/Azkar";
 import About from "./Components/About/About";
 function App() {
   const [data] = Usehook(
-    "http://quran-endpoint.vercel.app/quran"
+    "https://quran-endpoint.vercel.app/quran"
   );
 
   return (

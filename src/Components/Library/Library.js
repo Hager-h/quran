@@ -13,7 +13,7 @@ export default function Library() {
   };
 
   const [data, err, loading] = Usehook(
-    "http://quran-endpoint.vercel.app/quran"
+    "https://quran-endpoint.vercel.app/quran"
   );
 
   return (
