@@ -45,3 +45,18 @@ a{
 }
 
 
+::-webkit-scrollbar {
+  width: 15px; 
+  background-color: var(--primary-color)
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:var(--second);
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active 
+  {
+  background-color: #f08bda; }
+

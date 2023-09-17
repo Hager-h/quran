@@ -37,7 +37,8 @@
 .sidebar .link svg {
   margin-right: 10px;
 }
-.sidebar .link:hover {
+.sidebar .link:hover,
+.sidebar .link.active{
   color: #87a5be;
 }
 
@@ -67,4 +68,7 @@
   to {
     transform: rotate(359deg);
   }
+}
+.sidebar .link.active{
+  color:var(--third)
 }

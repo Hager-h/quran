@@ -1,6 +1,6 @@
 import "./Rokia.css";
 import "../Library/Library.css";
-import vid from "../../img/SnapInsta.io-الرقية الشرعية بصوت الشيخ مشاري بن راشد العفاسي _ بدون إعلانات-(240p)";
+import vid from "../../img/vidd.mp4";
 export default function About() {
   return (
     <div className="spe ">

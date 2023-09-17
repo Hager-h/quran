@@ -14,7 +14,7 @@ export default function Sidebar() {
         <img src={sliderImg} alt="" />
       </div>
       <div className="icons">
-        <NavLink className="link" to="/">
+        <NavLink className="link" activeClassName="active"to="/">
           <span>
             <TbPlayerPlayFilled />
           </span>{" "}
