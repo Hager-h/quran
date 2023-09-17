@@ -40,7 +40,8 @@
   color: #09252f;
   text-align: right;
   padding: 20px;
-  background: whitesmoke;
+  /* background: whitesmoke; */
+  background: #f1aaa9; 
   width: fit-content;
   border-radius: 14px;
   text-align: right;
