@@ -148,6 +148,14 @@ audio::-webkit-media-controls-timeline {
   -webkit-tap-highlight-color: transparent;
 }
 
+
+@media(max-width:600px){
+  .card {
+  
+    padding: 42px;
+}
+}
+
 @media (max-width: 540px) {
   .controls-wrapper {
     width: 243px !important;
