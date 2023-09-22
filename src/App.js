@@ -10,6 +10,7 @@ import Player from "./Components/Player/Player";
 import Rokia from "./Components/Rokia/Rokia";
 import Azkar from "./Components/Azkar/Azkar";
 import About from "./Components/About/About";
+import Asmaa from "./Components/Asmaa allah/Asmaa";
 function App() {
   const [data] = Usehook(
     "https://quran-endpoint.vercel.app/quran"
@@ -26,6 +27,7 @@ function App() {
             <Route path="/player" element={<Player data={data} />} />
             <Route path="/azkar" element={<Azkar />} />
             <Route path="/about" element={<About />} />
+            <Route path="/asmaa" element={<Asmaa />} />
           </Routes>
         </BrowserRouter>
       </div>

@@ -2,14 +2,12 @@ import React from "react";
 import "./Sidebar.css";
 import { NavLink } from "react-router-dom";
 import sliderImg from "../../img/vinyl_PNG38 (1).png";
-import { TbPlayerPlayFilled } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BiLibrary } from "react-icons/bi";
 import { HiOutlineInformationCircle } from "react-icons/hi";
 import { FaPrayingHands } from "react-icons/fa";
-import { FaRosary } from "react-icons/fa";
+import { FaQuran } from "react-icons/fa";
 
-// داخل العنصر الذي ترغب في وض
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -20,7 +18,7 @@ export default function Sidebar() {
       <div className="icons">
         <NavLink className="link" to="/القران الكريم">
           <span>
-            <BiLibrary />
+            <FaQuran />
           </span>{" "}
           <span>القران الكريم</span>
         </NavLink>
@@ -36,6 +34,12 @@ export default function Sidebar() {
             <AiOutlineHeart />
           </span>{" "}
           <span>الأذكار</span>
+        </NavLink>
+        <NavLink className="link" to="/asmaa">
+          <span>
+          <BiLibrary />
+          </span>{" "}
+          <span>أسماء الله </span>
         </NavLink>
 
       </div>
