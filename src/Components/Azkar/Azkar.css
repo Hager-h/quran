@@ -6,9 +6,25 @@
   margin-bottom: 22px;
 }
 
+@media(max-width:912px){
+  .azkar audio{
+width: 61%;
+  }
+}
+
+@media(max-width:540px){
+  .azkar audio{
+    width:100%;
+  }
+}
+
+
+
+
+
 @media (max-width: 470px) {
   .azkar audio {
-    width: 100%;
+    width:110%;
     text-align: center;
   }
   .spe-claa h1 {

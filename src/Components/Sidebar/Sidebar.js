@@ -41,7 +41,7 @@ export default function Sidebar() {
           </span>{" "}
           <span>أسماء الله </span>
         </NavLink>
-
+     
       </div>
       <div className="sign-out">
         <NavLink className="link about" to="/about">
