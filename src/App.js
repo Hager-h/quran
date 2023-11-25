@@ -22,8 +22,9 @@ function App() {
         <BrowserRouter>
           <Sidebar />
           <Routes>
-            <Route path="/" element={<Rokia />} />
+            <Route path="/" element={<القران الكريم />} />
             <Route path="/القران الكريم" element={<Library />} />
+            <Route path="/rokia" element={<Rokia />} />
             <Route path="/player" element={<Player data={data} />} />
             <Route path="/azkar" element={<Azkar />} />
             <Route path="/about" element={<About />} />
